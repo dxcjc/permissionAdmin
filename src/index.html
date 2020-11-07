@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<style>
+  body {
+    background: pink;
+  }
+</style>
+<body>
+<h1>index</h1>
+
+<form action="/login.do" method="post">
+  <div>账 号 : <input name="userName" type="text"></div>
+  <div>密 码 : <input name="password" type="password"></div>
+  <button>登录</button>
+</form>
+
+<form action="/registory.do" method="post">
+  <div>账 号 : <input name="userName" type="text"></div>
+  <div>密 码 : <input name="password" type="password"></div>
+  <button>注册</button>
+</form>
+
+</body>
+<script>
+  window.onload = function () {
+    let data = getData()
+
+  }
+
+  function getData() {
+    let xhr
+    console.log('adds')
+    if (window.XMLHttpRequest) {
+      xhr = new XMLHttpRequest()
+    } else {
+      xhr = new ActiveXObject('Microsoft.XMLHTTP')
+    }
+    xhr.open('get', 'user.do', true) // method url is async
+    xhr.send()
+    xhr.onreadystatechange = function () {
+      console.log(xhr.readyState)
+      console.log(xhr.status);
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        console.log(xhr.responseText);
+        return xhr.responseText
+      }
+    }
+  }
+</script>
+</html>
