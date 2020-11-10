@@ -1,11 +1,11 @@
 const poolConfig = require('../config/poolConfig')
 
 async function getAllRoles(fun) {
-  return await poolConfig.connect('select rid, rname from roles', fun)
+  return await poolConfig.connect('select id, rname from roles', fun)
 }
 async function addRole(array) {
-  return await poolConfig.connect(`INSERT INTO roles (rname)
-                           VALUES (?) `, array)
+  return await poolConfig.connect(`INSERT INTO roles (rname,fid)
+                           VALUES (?,?) `, array)
 }
 async function deleteRoleOnUser(array) {
   return await poolConfig.connect(`DELETE FROM user_role WHERE rid = ? `, array)
@@ -14,7 +14,13 @@ async function deleteRoleOnPermission (array) {
   return await poolConfig.connect(`DELETE FROM permission_role WHERE rid = ? `, array)
 }
 async function deleteRoleByRid(array){
-  return await poolConfig.connect(`DELETE FROM roles WHERE rid = ? `, array)
+  return await poolConfig.connect(`DELETE FROM roles WHERE id = ? `, array)
+}
+async function getRoles(array) {
+  return await poolConfig.connect(`SELECT * FROM roles WHERE fid = ? `, array)
+}
+async function getRolesByRid(array) {
+  return await poolConfig.connect(`SELECT * FROM roles WHERE id = ? `, array)
 }
 
 module.exports = {
@@ -22,5 +28,7 @@ module.exports = {
   addRole,
   deleteRoleOnUser,
   deleteRoleOnPermission,
-  deleteRoleByRid
+  deleteRoleByRid,
+  getRoles,
+  getRolesByRid
 }

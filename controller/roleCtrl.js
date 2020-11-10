@@ -1,61 +1,48 @@
 const roleDao = require('../dao/roleDao')
-
+const convertTree = require('../utils/convertTree')
 module.exports = {
-  async getAllRoles(data, resp) {
-    let {err, info} = await roleDao.getAllRoles()
-    if (info) {
-      resp.send({code: 0, data: info})
-    } else {
-      resp.status(500).send({code: 500, data: {}, message: '添加失败'})
+  async getRoles(data, resp) {
+    // 更据当前用户的角色名数组查询其下属角色
+    let roles = data.roles
+    let list = []
+    console.log(list);
+    for (let i in roles) {
+      await findRoles(roles[i], list)
     }
+    list =convertTree.unique(list)
+    resp.send({code: 0, data: list})
   },
   async addRole(data, resp) {
-    let rname = data.rname
-    let {err, info} = await roleDao.addRole([rname])
+    let rname = data.role.rname
+    let fid = data.role.fid
+    let {err, info} = await roleDao.addRole([rname, fid])
     if (info) {
       resp.send({code: 0, data: info})
     } else {
-      resp.status(500).send({code: 500, data: {}, message: '添加失败'})
+      resp.send({code: 500, data: {}, message: '添加失败'})
     }
-
   },
-  // async deleteRoleOnUser(data, resp) {
-  //   let rid = data.rid
-  //   let {err, info} = await roleDao.deleteRoleOnUser([rid])
-  //   if (info) {
-  //     resp.send({code: 0, data: info})
-  //   } else {
-  //     resp.status(500).send({code: 500, data: {}, message: '添加失败'})
-  //   }
-  // },
-  // async deleteRoleOnPermission(data, resp) {
-  //   let rid = data.rid
-  //   let {err, info} = await roleDao.deleteRoleOnPermission([rid])
-  //   if (info) {
-  //     resp.send({code: 0, data: info})
-  //   } else {
-  //     resp.status(500).send({code: 500, data: {}, message: '添加失败'})
-  //   }
-  // },
   async deleteRoleByRid(data, resp) {
     let rid = data.rid
-    try {
-      console.log(rid);
-      // 1: delete 用户角色表中的角色相关信息
-      await roleDao.deleteRoleOnUser(rid)
-      console.log(rid);
-      // // 2: delete 角色权限表中的角色相关信息
-      await roleDao.deleteRoleOnPermission(rid)
-      console.log(rid);
-      await roleDao.deleteRoleByRid([rid])
-      console.log(rid);
-      // await this.getAllRoles(data,resp)
-      resp.send({code: 0, data: {}})
-    } catch (e) {
-      resp.status(500).send({code: 500, data: {e}, message: '删除失败'})
+    // 1: delete 用户角色表中的角色相关信息
+    await roleDao.deleteRoleOnUser(rid)
+    // // 2: delete 角色权限表中的角色相关信息
+    await roleDao.deleteRoleOnPermission(rid)
+
+    await roleDao.deleteRoleByRid([rid])
+
+    resp.send({code: 0, data: {message: '删除成功'}})
+  },
+
+}
+
+async function findRoles(id, list) {
+  //dao方法 返回role对象 回调方法
+  let {info} = await roleDao.getRoles(id)
+  if (info) {
+    for (const i in info) {
+      list.push(info[i])
+      await findRoles(info[i].id, list)
     }
-
   }
-
-  ,
 }

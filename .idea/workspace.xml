@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f700287c-8b09-4455-95d8-c231488d5f38" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/controller/infoCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/infoCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/operationCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/operationCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/permissionCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/permissionCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/roleCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/roleCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/userCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/userCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/infoDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/infoDao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/operationDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/operationDao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/permissionDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/permissionDao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/roleDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/roleDao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/userDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/userDao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dispatcher/dispatcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/dispatcher/dispatcher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-errors/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-errors/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-errors/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-errors/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/roleRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/roleRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/btn-permission.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/routerConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/routerConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/convertTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/convertTree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/events.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/events.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/observe.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/observe.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jxMxSBfH6nRnlzY6m5Jivoy8Xc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../permissionWeb" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/main.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.main.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f700287c-8b09-4455-95d8-c231488d5f38" name="默认的" comment="" />
+      <created>1604741535351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604741535351</updated>
+      <workItem from="1604741536489" duration="714000" />
+      <workItem from="1604881552342" duration="12003000" />
+      <workItem from="1604899928860" duration="9060000" />
+      <workItem from="1604975930639" duration="4268000" />
+      <workItem from="1604986335422" duration="4538000" />
+      <workItem from="1604992643461" duration="4822000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="857" y="279" key="FileChooserDialogImpl" timestamp="1604883713360">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="857" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604883713360" />
+    <state width="1900" height="272" key="GridCell.Tab.0.bottom" timestamp="1604996697772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1900" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604996697772" />
+    <state width="1900" height="272" key="GridCell.Tab.0.center" timestamp="1604996697771">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1900" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604996697771" />
+    <state width="1900" height="272" key="GridCell.Tab.0.left" timestamp="1604996697771">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1900" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604996697771" />
+    <state width="1900" height="272" key="GridCell.Tab.0.right" timestamp="1604996697771">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1900" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604996697771" />
+    <state width="1903" height="334" key="GridCell.Tab.1.bottom" timestamp="1604910997053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1903" height="334" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604910997053" />
+    <state width="1903" height="334" key="GridCell.Tab.1.center" timestamp="1604910997053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1903" height="334" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604910997053" />
+    <state width="1903" height="334" key="GridCell.Tab.1.left" timestamp="1604910997053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1903" height="334" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604910997053" />
+    <state width="1903" height="334" key="GridCell.Tab.1.right" timestamp="1604910997053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1903" height="334" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604910997053" />
+    <state width="1903" height="334" key="GridCell.Tab.2.bottom" timestamp="1604910997054">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1903" height="334" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604910997054" />
+    <state width="1903" height="334" key="GridCell.Tab.2.center" timestamp="1604910997054">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1903" height="334" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604910997054" />
+    <state width="1903" height="334" key="GridCell.Tab.2.left" timestamp="1604910997053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1903" height="334" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604910997053" />
+    <state width="1903" height="334" key="GridCell.Tab.2.right" timestamp="1604910997054">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1903" height="334" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604910997054" />
+    <state width="1903" height="334" key="GridCell.Tab.3.bottom" timestamp="1604910997054">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1903" height="334" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604910997054" />
+    <state width="1903" height="334" key="GridCell.Tab.3.center" timestamp="1604910997054">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1903" height="334" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604910997054" />
+    <state width="1903" height="334" key="GridCell.Tab.3.left" timestamp="1604910997054">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1903" height="334" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604910997054" />
+    <state width="1903" height="334" key="GridCell.Tab.3.right" timestamp="1604910997054">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1903" height="334" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604910997054" />
+    <state x="571" y="170" key="SettingsEditor" timestamp="1604899949640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="571" y="170" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604899949640" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/dispatcher/dispatcher.js</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/dispatcher/dispatcher.js</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

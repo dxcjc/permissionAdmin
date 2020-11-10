@@ -8,7 +8,6 @@ Object.getOwnPropertyNames(Array.prototype).forEach(method => {
     ArrayProto[method] = function(){
       arrayMethods[method].apply(this, arguments)
       let data = arrayMethods['shift'].apply(this)
-      console.log(`我已经监听到数组触发了${method}事件`)
       // 订阅事件
       events.emit('dispatcher',data)
     }

@@ -8,15 +8,15 @@ async function login(attrArr) {
 }
 
 async function getInfo(attrArr) {
-  return await poolConfig.connect(`SELECT user.uid ,username ,pwd , GROUP_CONCAT(rname)  rname
+  return await poolConfig.connect(`SELECT  GROUP_CONCAT(roles.id)  id
                             FROM user_role ru
-                            LEFT JOIN USER ON user.uid=ru.uid
-                            LEFT JOIN roles ON roles.rid=ru.rid
+                            LEFT JOIN USER ON user.id=ru.uid
+                            LEFT JOIN roles ON roles.id=ru.rid
                             WHERE user.username= ?
-                            GROUP BY user.uid`, attrArr)
+                            GROUP BY user.id`, attrArr)
 }
 async function deleteUser(attrArr) {
-  return await poolConfig.connect(`delete from user where uid = ?`, attrArr)
+  return await poolConfig.connect(`delete from user where id = ?`, attrArr)
 }
 
 

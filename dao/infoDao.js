@@ -1,34 +1,37 @@
 const poolConfig = require('../config/poolConfig')
 async function getList() {
-  return await poolConfig.connect(`SELECT user.uid ,username ,pwd , GROUP_CONCAT(rname) rname , GROUP_CONCAT(ru.rid) rid
-                          FROM user_role ru
-                          LEFT JOIN USER ON user.uid=ru.uid
-                          LEFT JOIN roles ON roles.rid=ru.rid
-                          GROUP BY user.uid`)
+// , GROUP_CONCAT(rname) rname , GROUP_CONCAT(ru.rid) rid
+  return await poolConfig.connect(`SELECT id ,username ,pwd 
+                          FROM user`)
 }
 async function getInfoByUid(array) {
-  return await poolConfig.connect(`SELECT user.uid ,username ,pwd  , GROUP_CONCAT(rname) rname , GROUP_CONCAT(ru.rid) rid
+// , GROUP_CONCAT(rname) rname , GROUP_CONCAT(ru.rid) rid
+  return await poolConfig.connect(`SELECT roles.id, roles.fid
                            FROM user_role ru
-                           LEFT JOIN USER ON user.uid=ru.uid
-                           LEFT JOIN roles ON roles.rid=ru.rid
-                           where user.uid = ?
-                           GROUP BY user.uid`, array)
+                           LEFT JOIN USER ON user.id=ru.uid
+                           LEFT JOIN roles ON roles.id=ru.rid
+                           WHERE user.id = ?`, array)
 }
 async function edit(array, fun) {
   return await poolConfig.connect(`INSERT INTO user_role (uid,rid)
-VALUES (?,?)  `, array, fun)
+                                        VALUES (?,?)  `, array, fun)
 }
 async function deleteByUid(array ) {
   return await poolConfig.connect(`delete from user_role where uid = ?`,array)
 }
 async function deleteUser(attrArr) {
-  return await poolConfig.connect(`delete from user where uid = ?`, attrArr)
+  return await poolConfig.connect(`delete from user where id = ?`, attrArr)
 }
+async function getRoles(attrArr) {
+  return await poolConfig.connect(`select * from roles`, attrArr)
+}
+
 
 module.exports = {
   getList,
   getInfoByUid,
   deleteByUid,
   edit,
-  deleteUser
+  deleteUser,
+  getRoles,
 }
