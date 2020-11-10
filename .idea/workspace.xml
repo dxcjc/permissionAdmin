@@ -20,30 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f700287c-8b09-4455-95d8-c231488d5f38" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/controller/infoCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/infoCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/operationCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/operationCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/permissionCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/permissionCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/roleCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/roleCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/userCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/userCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/infoDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/infoDao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/operationDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/operationDao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/permissionDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/permissionDao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/roleDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/roleDao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/userDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/userDao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dispatcher/dispatcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/dispatcher/dispatcher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-errors/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-errors/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-errors/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-errors/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/roleRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/roleRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/btn-permission.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/routerConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/routerConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/convertTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/convertTree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/events.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/events.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/observe.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/observe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +67,7 @@
       <workItem from="1604899928860" duration="9060000" />
       <workItem from="1604975930639" duration="4268000" />
       <workItem from="1604986335422" duration="4538000" />
-      <workItem from="1604992643461" duration="4822000" />
+      <workItem from="1604992643461" duration="6085000" />
     </task>
     <servers />
   </component>
