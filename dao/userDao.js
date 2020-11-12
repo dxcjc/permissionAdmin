@@ -15,13 +15,17 @@ async function getInfo(attrArr) {
                             WHERE user.username= ?
                             GROUP BY user.id`, attrArr)
 }
-async function deleteUser(attrArr) {
-  return await poolConfig.connect(`delete from user where id = ?`, attrArr)
+async function findPwdByName(arr) {
+  return await poolConfig.connect(`select pwd from user where username = ?`, arr)
+}
+async function changePwd(arr) {
+  return await poolConfig.connect(`update user set pwd = ? where username = ?`, arr)
 }
 
 
 module.exports = {
   login,
   getInfo,
-  // deleteUser,
+  findPwdByName,
+  changePwd
 }

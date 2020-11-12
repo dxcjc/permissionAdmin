@@ -15,9 +15,6 @@ const pool = {
   connect(sql, attrArr) {
     return new Promise(((resolve, reject) => {
       this.pool.query(sql, attrArr, function (err, info) {
-        // console.log(JSON.stringify(data));
-        //每次查询都会 回调
-        //
         try {
           resolve({err, info});
         }catch (e){

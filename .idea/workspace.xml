@@ -20,12 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f700287c-8b09-4455-95d8-c231488d5f38" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/utils/md5.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/poolConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/poolConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/userCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/userCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/userDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/userDao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodemon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/routerConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/routerConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/convertTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/convertTree.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,12 +60,28 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\练习\permissionAdmin\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/main.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="Node.js.main.js" />
       </list>
     </recent_temporary>
@@ -67,12 +99,28 @@
       <workItem from="1604899928860" duration="9060000" />
       <workItem from="1604975930639" duration="4268000" />
       <workItem from="1604986335422" duration="4538000" />
-      <workItem from="1604992643461" duration="6085000" />
+      <workItem from="1604992643461" duration="6194000" />
+      <workItem from="1605055298666" duration="3668000" />
+      <workItem from="1605072880463" duration="1233000" />
+      <workItem from="1605085952939" duration="163000" />
+      <workItem from="1605086131285" duration="39000" />
+      <workItem from="1605086196912" duration="770000" />
+      <workItem from="1605141076552" duration="5781000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -87,26 +135,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="857" y="279" key="FileChooserDialogImpl" timestamp="1604883713360">
+    <state x="857" y="279" key="FileChooserDialogImpl" timestamp="1605078448925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="857" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604883713360" />
-    <state width="1900" height="272" key="GridCell.Tab.0.bottom" timestamp="1604996697772">
+    <state x="857" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605078448925" />
+    <state width="1883" height="271" key="GridCell.Tab.0.bottom" timestamp="1605085973183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604996697772" />
-    <state width="1900" height="272" key="GridCell.Tab.0.center" timestamp="1604996697771">
+    <state width="1883" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605085973183" />
+    <state width="1883" height="271" key="GridCell.Tab.0.center" timestamp="1605085973183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604996697771" />
-    <state width="1900" height="272" key="GridCell.Tab.0.left" timestamp="1604996697771">
+    <state width="1883" height="271" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605085973183" />
+    <state width="1883" height="271" key="GridCell.Tab.0.left" timestamp="1605085973183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604996697771" />
-    <state width="1900" height="272" key="GridCell.Tab.0.right" timestamp="1604996697771">
+    <state width="1883" height="271" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605085973183" />
+    <state width="1883" height="271" key="GridCell.Tab.0.right" timestamp="1605085973183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604996697771" />
+    <state width="1883" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605085973183" />
     <state width="1903" height="334" key="GridCell.Tab.1.bottom" timestamp="1604910997053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -159,6 +207,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="571" y="170" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604899949640" />
+    <state x="492" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605055329341">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="492" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605055329341" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

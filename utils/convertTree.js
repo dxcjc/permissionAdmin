@@ -1,6 +1,6 @@
 function setPremission(routes, list) {
   routes = unique(routes)
-  routes.forEach((m, i) => {
+  routes.forEach(m => {
     if (m.fid === 0) {
       console.log(m);
       m.children = []
@@ -15,7 +15,7 @@ function unique(arr) {
 }
 function convertTree(data, list) {
   list.forEach(r => {
-    data.forEach((m, i) => {
+    data.forEach(m => {
       if (m.fid !== 0 && m.fid === r.id) {
         m.children = []
         r.children.push(m)

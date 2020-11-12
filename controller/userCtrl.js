@@ -1,5 +1,7 @@
 const userDao = require('../dao/userDao')
 const jwt = require('jsonwebtoken');
+const MD5 = require('md5')
+
 
 module.exports = {
   async login(data, resp) {
@@ -38,6 +40,21 @@ module.exports = {
   },
   logout(data, resp) {
     resp.send({code: 0, data: 'success'})
+  },
+  async changePwd(data, resp) {
+    let name = data.name
+    let oldPassword = data.oldPassword
+    let password = data.password
+    let {info} = await userDao.findPwdByName([name])
+    console.log(info);
+    if(info[0].pwd===oldPassword){
+      await userDao.changePwd([password,name])
+      resp.send({code: 0, data: {message:'修改成功'}})
+    }else{
+      resp.send({code: 0, data: {message:'旧密码错误'}})
+    }
+
+
   },
 
 }

@@ -13,6 +13,13 @@ const permission = [
   },
   {
     serverName: 'user',
+    eventName: 'changePwd',
+    dispatcher: userCtrl.changePwd,
+    description: '修改密码',
+    roles: 'ALL'
+  },
+  {
+    serverName: 'user',
     eventName: 'info',
     dispatcher: userCtrl.getInfo,
     description: '获取信息'
